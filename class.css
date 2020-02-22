@@ -1,0 +1,135 @@
+body {
+background-color: #ebf5f4;
+}
+
+/* header */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+.logo {
+    float: left;
+    max-width: 70px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+    padding: 10px ;
+}
+
+nav {
+    float: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+}
+
+nav ul {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+   /* margin-left: 70px;
+    padding-top: 35px;
+    padding-right: 70px; */
+     padding:  9px 20px;
+    margin-left: 63px;
+    margin-top: 30px;
+    margin-right: 60px;
+       display: inline-block;
+    padding-top: 5px;
+}
+
+/* nav li:hover {
+     border-top: 2px solid #2c97e4;
+} */
+
+.container a {
+    color: #494E6B;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.title {
+     float: left;
+    width: auto;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 30px ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #3aafa9;
+}
+
+/* nav a:hover {
+    color: #6D7993;
+} */
+
+/* header end */ 
+.classeswebpage {
+    margin-left: 6%;
+    margin-right: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 20px;
+   justify-content: center;
+    align-items: center;
+}
+
+.side {
+    display: inline-block;
+    height: 300px;
+}
+
+.classlist {
+    float: right;
+    margin-right: 20px;
+    
+}
+
+footer {
+    padding-top: 10px;
+   text-align: center;
+}
+
+th {
+        font-family: 'Merriweather', serif;
+color: #494E6B;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+td {
+        font-family: 'Open Sans', sans-serif;
+color: #6D7993;
+        max-width: 5px;
+   padding-left: 20px;
+     padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+table{
+    width: 90%;
+    text-align: center;
+}
+
+img {
+max-height: 300px;
+}
