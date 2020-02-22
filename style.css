@@ -90,8 +90,9 @@ nav li {
     width:95%;
     margin: 0 auto;
 display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-row-gap: 10px;
+  grid-template-columns: repeat(auto-fit, 440px);
+    grid-template-rows: repeat(3, 260px);  
+    grid-row-gap: 0px;
    justify-content: center;
     align-items: center;
 }
