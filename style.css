@@ -1,5 +1,6 @@
 body {
 background-color: #ebf5f4;
+    overflow: auto;
 }
 
 /* header */
