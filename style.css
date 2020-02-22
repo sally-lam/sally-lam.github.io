@@ -156,6 +156,10 @@ width: 400px;
 footer {
     padding-top: 10px;
    text-align: center;
+    text-decoration: none;
+         font-family: 'Open Sans', sans-serif;
+    color: #494E6B;
+    font-size: 18px;
 }
 
 img {
