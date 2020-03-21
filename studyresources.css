@@ -126,7 +126,7 @@ h4 {
 }
 
 td {
-       overflow: auto;
+       overflow: hidden;
    white-space: nowrap;
     padding: 10px;
     padding-top: 20px;
